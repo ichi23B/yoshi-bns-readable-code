@@ -28,7 +28,8 @@ class Dictionary():
         self.words = [] # 単語リスト初期化
         if self.dict_path.exists():
             with self.dict_path.open(encoding='utf-8') as f:
-                self.words.append(f.read())
+                word = f.read()
+                self.words.append(word)
             return self.words    
         else:
             raise FileNotFoundError()
