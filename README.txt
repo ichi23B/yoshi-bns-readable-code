@@ -9,5 +9,10 @@
  
 # 実行方法
 
-python dictionary.py
+## 実行コマンド
+python ./dictionary.sh {出力するファイルパス}
+
+
+## 例
+python ./dictionary.sh dictionary-data.txt
 
